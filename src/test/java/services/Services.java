@@ -64,11 +64,13 @@ public class Services {
 	}
 	
 	public void deleteService(String requestURL, String serviceId, String statusCode) {
+		Response res =
 		given()
 		.when()
 		.delete(requestURL+serviceId)
 		.then()
-		.statusCode(Integer.parseInt(statusCode));
-		//.log().body();
+		.statusCode(Integer.parseInt(statusCode))
+		.extract().response();
+		Assert.assertEquals(res.asString().contains(serviceId), true);
 	}
 }
