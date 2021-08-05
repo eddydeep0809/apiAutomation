@@ -1,6 +1,6 @@
 # bestBuyAPIAutomation
-The bestBuyAPIAutomation project can be used to test the services endpoint wherein various operations like getAllServices, createNewService, getService, updateService, 
-and deleteService
+The bestBuyAPIAutomation project can be used to test the Services endpoint wherein various operations like getAllServices, createNewService, getService, updateService, 
+and deleteService can be performed (https://github.com/BestBuy/api-playground)
 
 Getting Started
 Make sure you have NodeJS installed (we require version 4 or newer).
