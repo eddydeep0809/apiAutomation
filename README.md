@@ -8,7 +8,7 @@ git clone https://github.com/bestbuy/api-playground/
 cd api-playground
 npm install
 npm start
-# Best Buy API Playground started at http://localhost:3030
+
 
 #Framework setup
 Import the project in an IDE like eclipse, intellij
